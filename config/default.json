@@ -1,0 +1,19 @@
+{
+  "http": {
+    "port": 3000
+  },
+  "pg": {
+    "db": "graphql",
+    "user": "root",
+    "password": "root",
+    "sequelize": {
+      "host": "localhost",
+      "dialect": "postgres",
+      "pool": {
+        "max": 20,
+        "min": 0,
+        "idle": 10000
+      }
+    }
+  }
+}
